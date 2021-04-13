@@ -1,0 +1,67 @@
+/* Styles everything on the page with these styles */
+/* I made another change */
+            * {
+                margin: 0;
+                font-family: Helvetica, sans-sarif;
+            }
+            .navbar {
+                position: fixed;
+                width: 100%;
+                padding: 1%;
+                background: white;
+                padding: 1%;
+                box-shadow: 1px 1px 10px rgba(153, 153, 153, 0.36);
+            }
+            .navbar ul {
+                float: right;
+                margin-top: 10px;
+                margin-right: 20px;
+            }
+            .navbar li {
+                display: inline;
+                width: 100px;
+            }
+            /* Gave all a elements inside the navbar class this style */
+            .navbar a {
+                text-decoration: none;
+                color: #49bde5;
+            }
+            /* Give all these IDs the same Style */
+            #html, #css, #cli {
+                padding: 100px 50px;
+                /* Shorthand notation for border-bottom (border) */
+                /* border-bottom: size style color */
+                border-bottom: 5px solid #49bde5;
+            }
+            /* Shortcut for Comments */
+            /* ctrl + / */
+            #html, #cli {
+               background: #49bee531; 
+            }
+            #css {
+               background: white; 
+            }
+            h1 {
+                color: orange;
+                border-bottom: 1px solid #999;
+                padding-bottom: 10px;
+            }
+            /* Every IMG inside of every DIV */
+            div img {
+                margin-bottom: 16px;
+            }
+            .card {
+                background: white;
+                width: 400px;
+                padding: 16px;
+                margin-bottom: 20px;
+                border-radius: 5px;
+                /* box-shadow x-position y-position size color */
+                box-shadow: 1px 1px 12px rgba(153, 153, 153, 0.36);
+            }
+            .question {
+                font-weight: 900;
+            }
+            .answer {
+                margin: 16px;
+            }
